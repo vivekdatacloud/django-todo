@@ -32,6 +32,8 @@ That was pretty simple, right? Now let's make the App live. We just need to star
 ```bash
 $ python manage.py runserver
 ```
+py -m venv todoenv
+todoenv\Scripts\activate.bat
 
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
